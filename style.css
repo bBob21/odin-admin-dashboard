@@ -1,0 +1,11 @@
+.sidebar {
+  border: 1px solid red;
+}
+
+.header {
+  border: 1px solid blue;
+}
+
+.innermain {
+  border: 1px solid green;
+}
