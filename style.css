@@ -107,6 +107,9 @@ body{
   justify-content: right;
   font-weight: bold;
 }
+.account img{
+  width: 26px;
+}
 
 .profile{
   border:2px solid black;
@@ -114,12 +117,12 @@ body{
   object-fit: cover;
 }
 
-.profile-small{
+img.profile-small{
   width:40px;
   height:40px;
 }
 
-.profile-large{
+img.profile-large{
   width:70px;
   height:70px;
 }
