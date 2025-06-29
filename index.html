@@ -1,80 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="container">
-        <div class="sidebar">
-            <ul>
-                <li><img src="images/dashboard.svg"><span class="dashboard">Dashboard</span></li>
-                <li><img src="images/house.svg"><span>Home</span></li>
-                <li><img src="images/card-account-details.svg"><span>Profile</span></li>
-                <li><img src="images/message.svg"><span>Messages</span></li>
-                <li><img src="images/clock.svg"><span>History</span></li>
-                <li><img src="images/list-box.svg"><span>Tasks</span></li>
-                <li><img src="images/account-group.svg"><span>Communities</span></li>
-                <br>
-                <li><img src="images/cog.svg"><span>Settings</span></li>
-                <li><img src="images/help-box.svg"><span>Support</span></li>
-                <li><img src="images/shield-account.svg"><span>Privacy</span></li>
-            </ul>
-        </div>
+      <div class="sidebar">
+        <ul>
+          <li>
+            <img src="images/dashboard.svg" /><span class="dashboard"
+              >Dashboard</span
+            >
+          </li>
+          <li><img src="images/house.svg" /><span>Home</span></li>
+          <li>
+            <img src="images/card-account-details.svg" /><span>Profile</span>
+          </li>
+          <li><img src="images/message.svg" /><span>Messages</span></li>
+          <li><img src="images/clock.svg" /><span>History</span></li>
+          <li><img src="images/list-box.svg" /><span>Tasks</span></li>
+          <li>
+            <img src="images/account-group.svg" /><span>Communities</span>
+          </li>
+          <br />
+          <li><img src="images/cog.svg" /><span>Settings</span></li>
+          <li><img src="images/help-box.svg" /><span>Support</span></li>
+          <li><img src="images/shield-account.svg" /><span>Privacy</span></li>
+        </ul>
+      </div>
 
-        <div class="main">
-            <div class="header">
-                <div class="header1">
-                    <div class="searchbar">
-                        <img src="images/magnify.svg">
-                        <input type="text" placeholder="Search for things">
-                    </div>
-                    <div class="account">
-                        <img src="images/bell-outline.svg">
-                        <img class="profile profile-small" src="images/archen.jpg">
-                        <span>Feenerys Beenerys</span>
-                    </div>
-                </div>
-                <div class="header2">
-                    <div class="greeting">
-                        <img class="profile profile-large" src="images/archen.jpg">
-                        <div class="greeting-message">
-                            <span>Hi there,</span>
-                            <span class="greeting-user">Feenerys Beenerys (@feeeen)</span>
+      <div class="main">
+        <div class="header">
+          <div class="header1">
+            <div class="searchbar">
+              <label for="search"><img src="images/magnify.svg" /></label>
+              <input id="search" type="text" placeholder="Search for things" />
+            </div>
+            <div class="account">
+              <img src="images/bell-outline.svg" />
+              <img class="profile profile-small" src="images/archen.jpg" />
+              <span>Feenerys Beenerys</span>
+            </div>
+          </div>
+          <div class="header2">
+            <div class="greeting">
+              <img class="profile profile-large" src="images/archen.jpg" />
+              <div class="greeting-message">
+                <span>Hi there,</span>
+                <span class="greeting-user">Feenerys Beenerys (@feeeen)</span>
+              </div>
+            </div>
+            <div class="buttons">
+              <button>New</button>
+              <button>Upload</button>
+              <button>Share</button>
+            </div>
+          </div>
+        </div>
+        <div class="innermain">
+          <div class="cards">
+            <p class="title">Your Projects</p>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-stripe"></div>
+                    <div class="card-content">
+                        <div class="project-text">
+                            <p class="project-title">Project title</p>
+                            <p>
+                                Description about the project. It should have a decent number of words to summarize the project's details.
+                            </p>
+                        </div>
+                        <div class="project-buttons">
+                            <img src="images/star-outline.svg">
+                            <img src="images/eye-outline.svg">
+                            <img src="images/share-outline.svg">
                         </div>
                     </div>
-                    <div class="buttons">
-                        <button>New</button>
-                        <button>Upload</button>
-                        <button>Share</button>
+                </div>
+                <div class="card">
+                    <div class="card-stripe"></div>
+                    <div class="card-content">
+                        <div class="project-text">
+                            <p class="project-title">Project title</p>
+                            <p>
+                                Description about the project. It should have a decent number of words to summarize the project's details.
+                            </p>
+                        </div>
+                        <div class="project-buttons">
+                            <img src="images/star-outline.svg">
+                            <img src="images/eye-outline.svg">
+                            <img src="images/share-outline.svg">
+                        </div>
+                    </div>
+                </div><div class="card">
+                    <div class="card-stripe"></div>
+                    <div class="card-content">
+                        <div class="project-text">
+                            <p class="project-title">Project title</p>
+                            <p>
+                                Description about the project. It should have a decent number of words to summarize the project's details.
+                            </p>
+                        </div>
+                        <div class="project-buttons">
+                            <img src="images/star-outline.svg">
+                            <img src="images/eye-outline.svg">
+                            <img src="images/share-outline.svg">
+                        </div>
+                    </div>
+                </div><div class="card">
+                    <div class="card-stripe"></div>
+                    <div class="card-content">
+                        <div class="project-text">
+                            <p class="project-title">Project title</p>
+                            <p>
+                                Description about the project. It should have a decent number of words to summarize the project's details.
+                            </p>
+                        </div>
+                        <div class="project-buttons">
+                            <img src="images/star-outline.svg">
+                            <img src="images/eye-outline.svg">
+                            <img src="images/share-outline.svg">
+                        </div>
+                    </div>
+                </div><div class="card">
+                    <div class="card-stripe"></div>
+                    <div class="card-content">
+                        <div class="project-text">
+                            <p class="project-title">Project title</p>
+                            <p>
+                                Description about the project. It should have a decent number of words to summarize the project's details.
+                            </p>
+                        </div>
+                        <div class="project-buttons">
+                            <img src="images/star-outline.svg">
+                            <img src="images/eye-outline.svg">
+                            <img src="images/share-outline.svg">
+                        </div>
+                    </div>
+                </div><div class="card">
+                    <div class="card-stripe"></div>
+                    <div class="card-content">
+                        <div class="project-text">
+                            <p class="project-title">Project title</p>
+                            <p>
+                                Description about the project. It should have a decent number of words to summarize the project's details.
+                            </p>
+                        </div>
+                        <div class="project-buttons">
+                            <img src="images/star-outline.svg">
+                            <img src="images/eye-outline.svg">
+                            <img src="images/share-outline.svg">
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="innermain">
-                <div class="cards">
-                    <h4>Your Projects</h4>
-                    <div class="card">
-                        project
-                    </div>
+          </div>
 
-                <h4>Announcements</h4>
-                <div class="announcements">
-                    Mainteneance.
-                    somethikng.
-                </div>
-                
-                <h4>Trending</h4>
-                <div class="trending">
-                    people
-                    other people
-                </div>
-            </div>
+          <div class="innermain-side">
+            <h4>Announcements</h4>
+            <div class="announcements">Mainteneance. somethikng.</div>
+
+            <h4>Trending</h4>
+            <div class="trending">people other people</div>
+          </div>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
